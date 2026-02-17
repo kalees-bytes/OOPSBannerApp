@@ -1,115 +1,64 @@
-public class ReadmeTemplate {
-
-    public static void main(String[] args) {
-
-        String readme = """
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>🚀 Project README</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            margin: 0;
-            padding: 0;
-            color: #ffffff;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-        h2 {
-            margin-top: 40px;
-            color: #00d4ff;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li::before {
-            content: "✔ ";
-            color: #00ffcc;
-        }
-        .badge {
-            display: inline-block;
-            padding: 8px 15px;
-            margin: 5px;
-            border-radius: 20px;
-            background: #00d4ff;
-            color: #000;
-            font-weight: bold;
-            font-size: 14px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #cccccc;
-        }
-        a {
-            color: #00ffcc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #00ffcc;
-            color: #000;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s ease;
-        }
-        .button:hover {
-            background: #00d4ff;
-        }
-    </style>
+    <title>🚀 Awesome Java Project</title>
 </head>
-<body>
+<body style="margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#141e30,#243b55);color:white;">
 
-<div class="container">
+    <div style="max-width:900px;margin:40px auto;padding:30px;background:rgba(0,0,0,0.7);border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,0.6);">
 
-    <h1>🚀 Awesome Java Project</h1>
-    <p align="center">
-        A clean, modern, and powerful Java application designed for performance and scalability.
-    </p>
+        <h1 style="text-align:center;font-size:40px;">🚀 Awesome Java Project</h1>
+        <p style="text-align:center;font-size:18px;">
+            A modern, powerful and clean Java application built for performance.
+        </p>
 
-    <div style="text-align:center;">
-        <span class="badge">Java 17+</span>
-        <span class="badge">Maven</span>
-        <span class="badge">Open Source</span>
-        <span class="badge">MIT License</span>
+        <div style="text-align:center;margin:20px 0;">
+            <img src="https://img.shields.io/badge/Java-17+-blue?style=for-the-badge">
+            <img src="https://img.shields.io/badge/Build-Maven-red?style=for-the-badge">
+            <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+        </div>
+
+        <hr style="border:1px solid #00c6ff;">
+
+        <h2 style="color:#00c6ff;">✨ Features</h2>
+        <ul style="line-height:1.8;font-size:16px;">
+            <li>✔ Clean Architecture</li>
+            <li>✔ High Performance</li>
+            <li>✔ Easy Configuration</li>
+            <li>✔ Lightweight & Fast</li>
+            <li>✔ Beginner Friendly</li>
+        </ul>
+
+        <h2 style="color:#00c6ff;">📸 Preview</h2>
+        <div style="text-align:center;">
+            <img src="https://via.placeholder.com/800x400.png?text=Project+Preview"
+                 style="width:100%;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.5);">
+        </div>
+
+        <h2 style="color:#00c6ff;">📦 Installation</h2>
+        <pre style="background:#111;padding:15px;border-radius:10px;color:#00ffcc;">
+git clone https://github.com/yourusername/yourproject.git
+cd yourproject
+mvn clean install
+        </pre>
+
+        <h2 style="color:#00c6ff;">▶ Usage</h2>
+        <pre style="background:#111;padding:15px;border-radius:10px;color:#00ffcc;">
+java -jar target/yourproject.jar
+        </pre>
+
+        <div style="text-align:center;margin-top:30px;">
+            <a href="#" style="padding:12px 25px;background:#00c6ff;color:black;
+               text-decoration:none;border-radius:25px;font-weight:bold;">
+               ⭐ Star This Project
+            </a>
+        </div>
+
+        <p style="text-align:center;margin-top:30px;color:#aaa;">
+            © 2026 Your Name | Made with ❤️ using Java
+        </p>
+
     </div>
 
-    <h2>✨ Features</h2>
-    <ul>
-        <li>Clean and modular architecture</li>
-        <li>High performance & optimized code</li>
-        <li>Easy configuration</li>
-        <li>Beginner friendly</li>
-        <li>Well documented</li>
-    </ul>
-
-    <h2>📦 Installation</h2>
-    <p>
-        Clon
+</body>
+</html>
