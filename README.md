@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>🚀 Awesome Project</title>
-</head>
+
 
 <body style="margin:0;
 font-family:Arial,Helvetica,sans-serif;
