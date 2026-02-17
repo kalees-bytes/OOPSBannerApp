@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>OOPSBannerApp</title>
-</head>
+
 <body style="
     margin:0;
     height:100vh;
